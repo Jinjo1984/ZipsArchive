@@ -1,0 +1,19 @@
+﻿<Window x:Class="ZipsArchive.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZipsArchive"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="196" Width="405"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Archivers" Content="Разархивировать архив" HorizontalAlignment="Left" Margin="214,65,0,0" VerticalAlignment="Top" Width="165" Height="32" Click="RazArchivers_Click"/>
+        <Button x:Name="RazArchivers" Content="Заархивировть папку" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="165" Height="32" Click="Archivers_Click"/>
+
+    </Grid>
+</Window>
